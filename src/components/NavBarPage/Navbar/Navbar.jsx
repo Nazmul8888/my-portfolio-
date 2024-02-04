@@ -38,8 +38,12 @@ const Navbar = () => {
         {devLinks}
       </ul>
     </div>
-    <img className=" w-16 rounded-full" src="https://i.ibb.co/zNchkFn/Whats-App-Image-2023-11-22-at-2-47-13-PM.jpg" alt="" />
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <div className="relative group">
+                    <img className="w-[80px] h-[80px] bg-slate-500 object-cover rounded-full" src="https://i.ibb.co/zNchkFn/Whats-App-Image-2023-11-22-at-2-47-13-PM.jpg" alt="" />
+                    <span className="h-4 w-4 bg-green-500 absolute rounded-full bottom-2 right-0 border-[3px] border-white"></span>
+                    <span className="h-4 w-4 bg-green-500 absolute rounded-full bottom-2 right-0 animate-ping"></span>
+                </div>
+   
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -49,7 +53,7 @@ const Navbar = () => {
   
       <div className="dark-mode-toggle" onClick={handleDarkModeToggle}>
         <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
-        <span>{darkMode ? ' Dark Mode' : 'Light Mode'}</span>
+       
       </div>
     </nav>
     </div>
