@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-options {
+    display: flex;
+  }
+  
+  .navbar-option {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dark-mode-toggle span {
+    margin-left: 0.5rem;
+  }
+  
+  .dark {
+    background-color: #222; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  
