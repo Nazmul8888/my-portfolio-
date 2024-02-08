@@ -10,6 +10,7 @@ import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import AboutMe from './components/NavBarPage/AboutMe/AboutMe';
 import Services from './components/NavBarPage/Services/Services';
+import Portfolio from './components/NavBarPage/Portfolio/Portfolio';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'services',
         element: <Services></Services>
+      },
+      {
+        path: 'portfolio',
+        element:<Portfolio></Portfolio>
       }
      
     ]
