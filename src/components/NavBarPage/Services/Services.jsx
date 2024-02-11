@@ -1,4 +1,6 @@
 import './services.css'
+import img1 from '../../../assets/images/a1.png'
+import img2 from '../../../assets/images/a2.png'
 
 const Services = () => {
     return (
@@ -81,6 +83,38 @@ const Services = () => {
           <br />
           <br />
           <br />
+          <div className=""></div>
+
+            {/* second part */}
+            <h1 className=' text-2xl text- white font-bold  ml-80  '>EXPERIENCE.</h1>
+
+          <div className=' flex  ml-80 items-center gap-10 py-10'>
+            <div>
+              <img className=' w-40' src={img1} alt="" />
+            </div>
+            <div>
+                <h1>Full Stack Developer</h1>
+                <span>rogramming agency Pvt | Remote | Jan 2022 - Present</span>
+                <p>1-year seasoned Full Stack Developer crafting digital excellence through code at a leading <br /> programming agency. Transforming ideas into seamless web solutions with a mastery of front-end <br /> and back-end technologies. Passionately driving innovation, one line of code at a time <br /></p>
+            </div>
+            <div>
+                <button className=' btn  rounded-lg  bg-[#2fbf71] mb-14'>Full Time</button>
+            </div>
+          </div>
+       
+          <div className=' flex  ml-80 items-center gap-10 py-10'>
+            <div>
+              <img className=' w-40' src={img2} alt="" />
+            </div>
+            <div>
+                <h1>Full Stack Developer</h1>
+                <span>rogramming agency Pvt | Remote | Jan 2022 - Present</span>
+                <p>1-year seasoned Full Stack Developer crafting digital excellence through code at a leading <br /> programming agency. Transforming ideas into seamless web solutions with a mastery of front-end <br /> and back-end technologies. Passionately driving innovation, one line of code at a time <br /></p>
+            </div>
+            <div>
+                <button className=' btn  rounded-lg  bg-[#2fbf71] mb-14'>Full Time</button>
+            </div>
+          </div>
         </div>
     );
 };
